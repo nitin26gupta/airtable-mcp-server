@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: airtable-mcp-server
+    runtime: node
+    buildCommand: npm install
+    startCommand: airtable-mcp-server
+    envVars:
+      - key: AIRTABLE_API_KEY
+        value: patzuINdomwRbJswu.c1c8cf975a0060af7d8962c0e271e691abc0bfd004fb634a6a36656348d78430
